@@ -17,7 +17,7 @@ public class ReportModel {
     private String id;
 
     @Lob
-    @Column(name="report_json",columnDefinition = "LONGTEXT")
+    @Column(name="report_json")
     private String reportJson;
     
     public ReportModel() {}
